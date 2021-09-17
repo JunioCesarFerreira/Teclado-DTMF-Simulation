@@ -4,7 +4,7 @@ Programa em C# simula decodificador de teclado DTMF por Algoritmo de Goertzel e 
 Abaixo apresenta-se um print da interface.
 <br />
 <br />
-![Alt Text](https://github.com/JunioCesarFerreira/Teclado_DTMF_Simula-o/blob/master/image.png)
+![Alt Text](https://github.com/JunioCesarFerreira/Teclado_DTMF_Simula-o/image.png)
 <br />
 <br />
 Qualquer dúvida ou sugestão entre em contato jcf_ssp@hotmail.com

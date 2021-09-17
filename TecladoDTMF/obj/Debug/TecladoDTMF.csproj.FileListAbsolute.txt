@@ -1,0 +1,62 @@
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.exe.config
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.exe
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.pdb
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.csprojResolveAssemblyReference.cache
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.Form1.resources
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.Properties.Resources.resources
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.csproj.GenerateResource.Cache
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.exe
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.pdb
+C:\Users\Junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\bin\Debug\XYGraph.dll
+C:\Users\Junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\bin\Debug\ExcelLibrary.dll
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.exe.config
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.exe
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.pdb
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\bin\Debug\ExcelLibrary.dll
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.exe
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.pdb
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.csprojResolveAssemblyReference.cache
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.Form1.resources
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.Properties.Resources.resources
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.csproj.GenerateResource.Cache
+C:\Users\Junio\Dropbox\My Work\TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.exe.config
+C:\Users\Junio\Dropbox\My Work\TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.exe
+C:\Users\Junio\Dropbox\My Work\TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.pdb
+C:\Users\Junio\Desktop\TecladoDTMF\TecladoDTMF\bin\Debug\MyDataReceiver.exe.config
+C:\Users\Junio\Desktop\TecladoDTMF\TecladoDTMF\bin\Debug\MyDataReceiver.exe
+C:\Users\Junio\Desktop\TecladoDTMF\TecladoDTMF\bin\Debug\MyDataReceiver.pdb
+C:\Users\Junio\Desktop\TecladoDTMF\TecladoDTMF\obj\Debug\TecladoDTMF.csprojResolveAssemblyReference.cache
+C:\Users\Junio\Desktop\TecladoDTMF\TecladoDTMF\obj\Debug\MyDataReceiver.Form1.resources
+C:\Users\Junio\Desktop\TecladoDTMF\TecladoDTMF\obj\Debug\MyDataReceiver.Properties.Resources.resources
+C:\Users\Junio\Desktop\TecladoDTMF\TecladoDTMF\obj\Debug\TecladoDTMF.csproj.GenerateResource.Cache
+C:\Users\Junio\Desktop\TecladoDTMF\TecladoDTMF\obj\Debug\MyDataReceiver.exe
+C:\Users\Junio\Desktop\TecladoDTMF\TecladoDTMF\obj\Debug\MyDataReceiver.pdb
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF\bin\Debug\MyDataReceiver.exe.config
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF\obj\Debug\MyDataReceiver.exe
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF\obj\Debug\MyDataReceiver.pdb
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF\bin\Debug\MyDataReceiver.exe
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF\bin\Debug\MyDataReceiver.pdb
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF\obj\Debug\TecladoDTMF.csprojResolveAssemblyReference.cache
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF\obj\Debug\MyDataReceiver.Properties.Resources.resources
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF\obj\Debug\TecladoDTMF.csproj.GenerateResource.Cache
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF\obj\Debug\MyDataReceiver.FormDTMF.resources
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF_v3\bin\Debug\MyDataReceiver.exe.config
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF_v3\obj\Debug\MyDataReceiver.exe
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF_v3\obj\Debug\MyDataReceiver.pdb
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF_v3\bin\Debug\MyDataReceiver.exe
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF_v3\bin\Debug\MyDataReceiver.pdb
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF_v3\obj\Debug\TecladoDTMF.csprojResolveAssemblyReference.cache
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF_v3\obj\Debug\MyDataReceiver.FormDTMF.resources
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF_v3\obj\Debug\MyDataReceiver.Properties.Resources.resources
+C:\Users\Junio\Desktop\Desktop\Setor 0\TecladoDTMF\TecladoDTMF_v3\obj\Debug\TecladoDTMF.csproj.GenerateResource.Cache
+C:\Users\jcf_s\Desktop\MyGit\Teclado_DTMF_Simula-o-master\TecladoDTMF\bin\Debug\MyDataReceiver.exe.config
+C:\Users\jcf_s\Desktop\MyGit\Teclado_DTMF_Simula-o-master\TecladoDTMF\bin\Debug\MyDataReceiver.exe
+C:\Users\jcf_s\Desktop\MyGit\Teclado_DTMF_Simula-o-master\TecladoDTMF\bin\Debug\MyDataReceiver.pdb
+C:\Users\jcf_s\Desktop\MyGit\Teclado_DTMF_Simula-o-master\TecladoDTMF\obj\Debug\TecladoDTMF.csprojAssemblyReference.cache
+C:\Users\jcf_s\Desktop\MyGit\Teclado_DTMF_Simula-o-master\TecladoDTMF\obj\Debug\MyDataReceiver.FormDTMF.resources
+C:\Users\jcf_s\Desktop\MyGit\Teclado_DTMF_Simula-o-master\TecladoDTMF\obj\Debug\MyDataReceiver.Properties.Resources.resources
+C:\Users\jcf_s\Desktop\MyGit\Teclado_DTMF_Simula-o-master\TecladoDTMF\obj\Debug\TecladoDTMF.csproj.GenerateResource.cache
+C:\Users\jcf_s\Desktop\MyGit\Teclado_DTMF_Simula-o-master\TecladoDTMF\obj\Debug\TecladoDTMF.csproj.CoreCompileInputs.cache
+C:\Users\jcf_s\Desktop\MyGit\Teclado_DTMF_Simula-o-master\TecladoDTMF\obj\Debug\TecladoDTMF.csproj.CopyComplete
+C:\Users\jcf_s\Desktop\MyGit\Teclado_DTMF_Simula-o-master\TecladoDTMF\obj\Debug\MyDataReceiver.exe
+C:\Users\jcf_s\Desktop\MyGit\Teclado_DTMF_Simula-o-master\TecladoDTMF\obj\Debug\MyDataReceiver.pdb

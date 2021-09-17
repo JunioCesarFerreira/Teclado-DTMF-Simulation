@@ -1,0 +1,5 @@
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\bin\Debug\WindowsApplication.exe.config
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\x86\Debug\Generic_DataReceiver_UART.csprojResolveAssemblyReference.cache
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\x86\Debug\MyDataReceiver.Form1.resources
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\x86\Debug\Generic_DataReceiver_UART.Properties.Resources.resources
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\x86\Debug\Generic_DataReceiver_UART.csproj.GenerateResource.Cache

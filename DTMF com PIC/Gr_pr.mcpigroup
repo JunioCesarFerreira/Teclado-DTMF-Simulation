@@ -1,0 +1,6 @@
+[PROJECTS]
+Count=2
+Project0=Firmware_PIC_Teclado\TecladoDTMF.mcppi
+Project1=Firmware_PIC_Decodifica\DTMF_Decode.mcppi
+[ActiveProject]
+Index=1

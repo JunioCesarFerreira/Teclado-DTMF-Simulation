@@ -1,0 +1,53 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\componentXtra.GetLicense]
+@="componentXtra.GetLicense"
+
+[HKEY_CLASSES_ROOT\componentXtra.GetLicense\CLSID]
+@="{6342336D-6AFB-36A5-8AD6-6B6EDE1C0860}"
+
+[HKEY_CLASSES_ROOT\CLSID\{6342336D-6AFB-36A5-8AD6-6B6EDE1C0860}]
+@="componentXtra.GetLicense"
+
+[HKEY_CLASSES_ROOT\CLSID\{6342336D-6AFB-36A5-8AD6-6B6EDE1C0860}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="componentXtra.GetLicense"
+"Assembly"="XYGraph, Version=2.0.2168.18488, Culture=neutral, PublicKeyToken=a46567cceafacc48"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{6342336D-6AFB-36A5-8AD6-6B6EDE1C0860}\InprocServer32\2.0.2168.18488]
+"Class"="componentXtra.GetLicense"
+"Assembly"="XYGraph, Version=2.0.2168.18488, Culture=neutral, PublicKeyToken=a46567cceafacc48"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{6342336D-6AFB-36A5-8AD6-6B6EDE1C0860}\ProgId]
+@="componentXtra.GetLicense"
+
+[HKEY_CLASSES_ROOT\CLSID\{6342336D-6AFB-36A5-8AD6-6B6EDE1C0860}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\componentXtra.XYGraph]
+@="componentXtra.XYGraph"
+
+[HKEY_CLASSES_ROOT\componentXtra.XYGraph\CLSID]
+@="{4282E32E-E548-3D8A-A2F9-21ACA77477A9}"
+
+[HKEY_CLASSES_ROOT\CLSID\{4282E32E-E548-3D8A-A2F9-21ACA77477A9}]
+@="componentXtra.XYGraph"
+
+[HKEY_CLASSES_ROOT\CLSID\{4282E32E-E548-3D8A-A2F9-21ACA77477A9}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="componentXtra.XYGraph"
+"Assembly"="XYGraph, Version=2.0.2168.18488, Culture=neutral, PublicKeyToken=a46567cceafacc48"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{4282E32E-E548-3D8A-A2F9-21ACA77477A9}\InprocServer32\2.0.2168.18488]
+"Class"="componentXtra.XYGraph"
+"Assembly"="XYGraph, Version=2.0.2168.18488, Culture=neutral, PublicKeyToken=a46567cceafacc48"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{4282E32E-E548-3D8A-A2F9-21ACA77477A9}\ProgId]
+@="componentXtra.XYGraph"
+
+[HKEY_CLASSES_ROOT\CLSID\{4282E32E-E548-3D8A-A2F9-21ACA77477A9}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]

@@ -1,0 +1,10 @@
+main
+	__CC2DW
+	Init_Sys
+		UART1_Init
+	Varre_Teclado
+		Varre_Col_Ret_L
+	UART1_Write
+	Som
+		Limiter
+interrupt

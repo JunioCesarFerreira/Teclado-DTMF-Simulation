@@ -78,7 +78,7 @@
             this.xyGraph1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.xyGraph1.Location = new System.Drawing.Point(3, 253);
             this.xyGraph1.Name = "xyGraph1";
-            this.xyGraph1.Size = new System.Drawing.Size(742, 245);
+            this.xyGraph1.Size = new System.Drawing.Size(759, 245);
             this.xyGraph1.TabIndex = 0;
             this.xyGraph1.XtraAutoScale = true;
             this.xyGraph1.XtraClassicLabels = true;
@@ -111,7 +111,7 @@
             this.xyGraph2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.xyGraph2.Location = new System.Drawing.Point(3, 3);
             this.xyGraph2.Name = "xyGraph2";
-            this.xyGraph2.Size = new System.Drawing.Size(742, 244);
+            this.xyGraph2.Size = new System.Drawing.Size(759, 244);
             this.xyGraph2.TabIndex = 1;
             this.xyGraph2.XtraAutoScale = true;
             this.xyGraph2.XtraClassicLabels = true;
@@ -489,7 +489,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1030, 507);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1047, 507);
             this.tableLayoutPanel1.TabIndex = 25;
             // 
             // tableLayoutPanel2
@@ -524,7 +524,7 @@
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(748, 501);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(765, 501);
             this.tableLayoutPanel3.TabIndex = 1;
             // 
             // FormDTMF
@@ -533,7 +533,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(1054, 531);
+            this.ClientSize = new System.Drawing.Size(1071, 531);
             this.Controls.Add(this.tableLayoutPanel1);
             this.MinimumSize = new System.Drawing.Size(1070, 570);
             this.Name = "FormDTMF";

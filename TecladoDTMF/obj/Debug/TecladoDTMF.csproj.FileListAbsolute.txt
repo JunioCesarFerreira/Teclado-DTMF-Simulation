@@ -60,3 +60,14 @@ C:\Users\jcf_s\Desktop\MyGit\Teclado_DTMF_Simula-o-master\TecladoDTMF\obj\Debug\
 C:\Users\jcf_s\Desktop\MyGit\Teclado_DTMF_Simula-o-master\TecladoDTMF\obj\Debug\TecladoDTMF.csproj.CopyComplete
 C:\Users\jcf_s\Desktop\MyGit\Teclado_DTMF_Simula-o-master\TecladoDTMF\obj\Debug\MyDataReceiver.exe
 C:\Users\jcf_s\Desktop\MyGit\Teclado_DTMF_Simula-o-master\TecladoDTMF\obj\Debug\MyDataReceiver.pdb
+C:\Users\jcf_s\source\git\Teclado_DTMF_Simula-o\TecladoDTMF\bin\Debug\MyDataReceiver.exe.config
+C:\Users\jcf_s\source\git\Teclado_DTMF_Simula-o\TecladoDTMF\bin\Debug\MyDataReceiver.exe
+C:\Users\jcf_s\source\git\Teclado_DTMF_Simula-o\TecladoDTMF\bin\Debug\MyDataReceiver.pdb
+C:\Users\jcf_s\source\git\Teclado_DTMF_Simula-o\TecladoDTMF\obj\Debug\TecladoDTMF.csprojAssemblyReference.cache
+C:\Users\jcf_s\source\git\Teclado_DTMF_Simula-o\TecladoDTMF\obj\Debug\MyDataReceiver.FormDTMF.resources
+C:\Users\jcf_s\source\git\Teclado_DTMF_Simula-o\TecladoDTMF\obj\Debug\MyDataReceiver.Properties.Resources.resources
+C:\Users\jcf_s\source\git\Teclado_DTMF_Simula-o\TecladoDTMF\obj\Debug\TecladoDTMF.csproj.GenerateResource.cache
+C:\Users\jcf_s\source\git\Teclado_DTMF_Simula-o\TecladoDTMF\obj\Debug\TecladoDTMF.csproj.CoreCompileInputs.cache
+C:\Users\jcf_s\source\git\Teclado_DTMF_Simula-o\TecladoDTMF\obj\Debug\TecladoDTMF.csproj.CopyComplete
+C:\Users\jcf_s\source\git\Teclado_DTMF_Simula-o\TecladoDTMF\obj\Debug\MyDataReceiver.exe
+C:\Users\jcf_s\source\git\Teclado_DTMF_Simula-o\TecladoDTMF\obj\Debug\MyDataReceiver.pdb

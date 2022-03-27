@@ -18,7 +18,8 @@ namespace MyDataReceiver
         private float eixo_y = 0;
 
         // Coeficientes de conversão para os gráficos
-        private const float CoefX1 = FS / N, CoefY1 = (float)(0.01), CoefX2 = (float)(0.001), CoefY2 = (float)(0.01);
+        private const float CoefX1 = FS / N;
+        private const float CoefY1 = (float)(0.01);
 
         // Relacionados à interface
         private byte Cont_Tecla = 0;   // Contador para limpeza do label de visualização das teclas digitadas
@@ -55,8 +56,7 @@ namespace MyDataReceiver
         // Método executado ao inicializar o form
         private void Form1_Load(object sender, EventArgs e)
         {
-
-            #region Inicializa Graph 1 Spectro
+            #region Initialize Graph 1 Spectro
             xyGraph1.AddGraph("XtraTitle", DashStyle.Solid, Color.White, 1, false);
             xyGraph1.XtraLabelX = "Frequência (Hz)";
             xyGraph1.XtraLabelY = "";
@@ -71,7 +71,7 @@ namespace MyDataReceiver
             xyGraph1.XtraShowGrid = true;
             #endregion
 
-            #region Inicializa Graph 2 Signal
+            #region Initialize Graph 2 Signal
             xyGraph2.AddGraph("XtraTitle", DashStyle.Solid, Color.White, 1, false);
             xyGraph2.XtraLabelX = "Tempo (signal)";
             xyGraph2.XtraLabelY = "Amplitude";
@@ -85,7 +85,6 @@ namespace MyDataReceiver
             xyGraph2.Validate(true);
             xyGraph2.XtraShowGrid = true;
             #endregion
-
         }   
              
         /// <summary>
@@ -95,13 +94,12 @@ namespace MyDataReceiver
         /// <returns>Caracter filtrado o espaço caso resultado seja inconclusivo</returns>
         private char Detect_key(double[] f)
         {
-            uint j;
-            double Max=0;
-            uint Ind1=0, Ind2=0;
-            byte D1=0, D2=0;
+            uint Ind1=0, Ind2=0;   // Indexadores das duas maiores componentes do espectro
+            byte Comp1=0, Comp2=0; // Componentes detectadas
 
             #region Encontra indeces dos pontos máximos do espectro
-            for (j = 0; j < N/2; j++)
+            double Max = 0; // Máximo auxiliar na detecção
+            for (uint j = 0; j < N/2; j++)
             {
                 if (f[j] > Max)
                 {
@@ -110,7 +108,7 @@ namespace MyDataReceiver
                 }
             }
             Max = 0;
-            for (j = 0; j < N/2; j++)
+            for (uint j = 0; j < N/2; j++)
             {
                 if (j!=Ind1 && f[j] > Max)
                 {
@@ -123,49 +121,49 @@ namespace MyDataReceiver
             #region Ordena indices dos máximos
             if (Ind1 > Ind2)
             {
-                j = Ind1;
+                uint tmp = Ind1;
                 Ind1 = Ind2;
-                Ind2 = j;
+                Ind2 = tmp;
             }
-            LB_M1.Text = "M1="+(Ind1 * CoefX1).ToString()+"Hz";
-            LB_M2.Text = "M2="+(Ind2 * CoefX1).ToString()+"Hz";
+            LB_M1.Text = "M1=" + (Ind1 * CoefX1).ToString() + "Hz";
+            LB_M2.Text = "M2=" + (Ind2 * CoefX1).ToString() + "Hz";
             #endregion
 
             #region Realiza filtragem
-            if (Ind1 < 1000*N/FS)
+            if (Ind1 < 1000 * N / FS)
             {
-                D1++;
+                Comp1++;
                 if (Ind1 < 900 * N / FS)
                 {
-                    D1++;
+                    Comp1++;
                     if (Ind1 < 810 * N / FS)
                     {
-                        D1++;
+                        Comp1++;
                         if (Ind1 < 720 * N / FS)
                         {
-                            D1++;
-                            if (Ind1 < 630 * N / FS) D1 = 0;
+                            Comp1++;
+                            if (Ind1 < 630 * N / FS) Comp1 = 0;
                         }
                     }
                 }
             }
             if (Ind2 < 1520 * N / FS)
             {
-                D2+=10;
+                Comp2 += 10;
                 if (Ind2 < 1400 * N / FS)
                 {
-                    D2+=10;
+                    Comp2 += 10;
                     if (Ind2 < 1300 * N / FS)
                     {
-                        D2+=10;
-                        if (Ind2 < 1150 * N / FS) D2 = 0;
+                        Comp2 += 10;
+                        if (Ind2 < 1150 * N / FS) Comp2 = 0;
                     }
                 }
             }
-            D1 += D2;
             #endregion
 
-            switch (D1)
+            #region Seleciona caractere prescionado
+            switch (Comp1 + Comp2)
             {
                 case 34:
                     return '1';
@@ -193,6 +191,7 @@ namespace MyDataReceiver
                     return '#';
             }
             return ' ';
+            #endregion
         }
 
         // Click dos botões do teclado DTMF
@@ -204,7 +203,6 @@ namespace MyDataReceiver
             BeepClass Beep = new BeepClass(80, 10000); // Instancia classe que executa o som do beep
             Signal signal = new Signal(N, FS);         // Instancia classe de geração e manipulação dos sinais
             float f1 = 0, f2 = 0;                      // Frequencias do DTMF
-            int n;                                     // Indexador de uso geral
 
             // Verifica qual botão foi prescionado
             foreach (Button B in TecladoDTMF)
@@ -272,7 +270,6 @@ namespace MyDataReceiver
             Beep.BeepDTMF(Convert.ToUInt16(f1), Convert.ToUInt16(f2), !checkBox1.Checked);
 
             // Monta sinal 
-            signalArray = signal.Clear_Signal(signalArray);
             if (!checkBox1.Checked)
             {
                 signalArray = signal.Sinus(f1, 1, 0);
@@ -290,7 +287,7 @@ namespace MyDataReceiver
             xyGraph2.ClearGraphs();
 
             // Carrega valores para o gráfico
-            for (n = 0; n < N; n++)
+            for (int n = 0; n < N; n++)
             {
                 eixo_y = Convert.ToSingle(signalArray[n]);
                 eixo_x = n * (1 / FS);
@@ -319,7 +316,7 @@ namespace MyDataReceiver
                     // Aplica o AG nas frequencias de interesse
                     foreach (int Fr in Freq)
                     {
-                        n = Convert.ToInt32(Fr * N / FS);
+                        int n = Convert.ToInt32(Fr * N / FS);
                         frequencyArray[n] = Algorithm.Goertzel_Algorithm(n, signalArray);
                     }
                     break;
@@ -327,7 +324,7 @@ namespace MyDataReceiver
 
             // Insere valores no gráfico de espectro
             xyGraph1.ClearGraphs();
-            for (n = 0; n < (N / 2); n++)
+            for (int n = 0; n < (N / 2); n++)
             {
                 eixo_y = Convert.ToSingle(frequencyArray[n]) * CoefY1;
                 eixo_x = n * CoefX1;

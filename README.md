@@ -1,2 +1,2 @@
-# Teclado_DTMF_Simula-o
-Programa em C# simula decodificador de teclado DTMF por Algoritmo de Goertzel e FFT radix-2 Cooley-Tukey, este arquivo é para fins didáticos, junto, segue um pequeno [tutorial em pdf](https://github.com/JunioCesarFerreira/Teclado_DTMF_Simula-o/blob/master/Decodificador%20digital%20de%20tons%20DTMF.pdf).<br />
+# Teclado_DTMF_Simulacao
+Neste repositório apresento algumas ideias para implementar um decodificador de teclado DTMF em microcontroladores. Incluindo um simulador didático desenvolvido em C#, onde implentei o Algoritmo de Goertzel e FFT radix-2 Cooley-Tukey. Este projeto foi desenvolvido para fins didáticos, junto, segue um pequeno [tutorial em pdf](https://github.com/JunioCesarFerreira/Teclado_DTMF_Simula-o/blob/master/Decodificador%20digital%20de%20tons%20DTMF.pdf) explicando a teoria e o projeto em si.<br />

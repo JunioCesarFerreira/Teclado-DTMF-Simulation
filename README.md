@@ -24,9 +24,15 @@ Após a instalação, você pode começar a usar o simulador da seguinte maneira
 
 ## Exemplos de Uso
 
-Aqui estão alguns exemplos de como você pode usar o simulador para entender melhor a decodificação DTMF:
-- Exemplo 1: [Descrição breve do exemplo].
-- Exemplo 2: [Descrição breve do exemplo].
+### Simulação em circuito
+
+![Circuito](https://github.com/JunioCesarFerreira/Teclado-DTMF-Simulation/blob/main/print-simulation.png)
+
+
+### Simulação em software
+
+![Print-Screen](https://github.com/JunioCesarFerreira/Teclado-DTMF-Simulation/blob/main/print-screen.png)
+
 
 ## Como Contribuir
 

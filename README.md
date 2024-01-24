@@ -1,12 +1,43 @@
-# Teclado-DTMF-Simulation
+# Teclado-DTMF-Simulation: Simulador Didático de Teclado DTMF
 
-Neste repositório apresento algumas ideias para implementar um decodificador de teclado DTMF em microcontroladores. Incluindo um simulador didático desenvolvido em C#, onde implentei o Algoritmo de Goertzel e o algoritmo da FFT radix-2 Cooley-Tukey. Este projeto foi desenvolvido para fins didáticos, junto, segue um pequeno [tutorial em pdf](https://github.com/JunioCesarFerreira/Teclado_DTMF_Simula-o/blob/master/Decodificador%20digital%20de%20tons%20DTMF.pdf) explicando a teoria e o projeto em si.<br /> P.S. (2022) Este projeto foi desenvolvido em 2018, mas após fazer um reset do meu github, fiz algumas melhorias no código C#, mas tentei manter a estrutura pensando em ser didático para engenheiros e técnicos iniciantes.<br />
+## Descrição
 
-# Simulação em circuito
+Este repositório é dedicado a apresentar métodos para a implementação de um decodificador de teclado DTMF em microcontroladores, incluindo um simulador didático desenvolvido em C#. Nele, apliquei tanto o Algoritmo de Goertzel quanto o FFT radix-2 de Cooley-Tukey. O projeto, focado em fins educativos, é complementado por um [tutorial em pdf](https://github.com/JunioCesarFerreira/Teclado_DTMF_Simula-o/blob/master/Decodificador%20digital%20de%20tons%20DTMF.pdf) que explica a teoria e detalha a implementação.
 
-![Circuito](https://github.com/JunioCesarFerreira/Teclado-DTMF-Simulation/blob/main/print-simulation.png)
+### Histórico do Projeto
 
+Originalmente desenvolvido em 2018 e revisado em 2022, este projeto foi atualizado para incluir melhorias no código C#, mantendo uma estrutura clara e didática.
 
-# Simulação em software
+## Instalação e Configuração
 
-![Print-Screen](https://github.com/JunioCesarFerreira/Teclado-DTMF-Simulation/blob/main/print-screen.png)
+Para utilizar este simulador, siga as instruções abaixo:
+1. Clone o repositório: `git clone [URL do Repositório]`.
+2. Instale o ambiente .NET (se necessário).
+3. Navegue até a pasta do projeto e execute o arquivo de solução.
+
+## Como Usar
+
+Após a instalação, você pode começar a usar o simulador da seguinte maneira:
+1. Abra o projeto no seu ambiente de desenvolvimento.
+2. Execute o simulador para ver o decodificador DTMF em ação.
+3. Experimente com diferentes entradas para entender como o decodificador processa sinais DTMF.
+
+## Exemplos de Uso
+
+Aqui estão alguns exemplos de como você pode usar o simulador para entender melhor a decodificação DTMF:
+- Exemplo 1: [Descrição breve do exemplo].
+- Exemplo 2: [Descrição breve do exemplo].
+
+## Como Contribuir
+
+Contribuições são sempre bem-vindas! Se você tem uma ideia para melhorar o projeto, por favor:
+
+1. Faça um fork do repositório.
+2. Crie uma branch para sua feature: `git checkout -b nova-feature`.
+3. Faça suas alterações e commit: `git commit -am 'Adiciona alguma feature'`.
+4. Envie para a branch: `git push origin nova-feature`.
+5. Envie um pull request.
+
+## Licença
+
+Este projeto está sob a licença [LICENSE](LICENSE). Veja o arquivo LICENSE para mais detalhes.

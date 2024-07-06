@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este repositório é dedicado a apresentar métodos para a implementação de um decodificador de teclado DTMF em microcontroladores, incluindo um simulador didático desenvolvido em C#. Nele, apliquei tanto o Algoritmo de Goertzel quanto o FFT radix-2 de Cooley-Tukey. O projeto, focado em fins educativos, é complementado por um [tutorial em pdf](https://github.com/JunioCesarFerreira/Teclado_DTMF_Simula-o/blob/master/Decodificador%20digital%20de%20tons%20DTMF.pdf) que explica a teoria e detalha a implementação.
+Este repositório é dedicado a apresentar métodos para a implementação de um decodificador de teclado DTMF em microcontroladores, incluindo um simulador didático desenvolvido em C#. Nele, apliquei tanto o Algoritmo de Goertzel quanto o FFT radix-2 de Cooley-Tukey. O projeto, focado em fins educativos, é complementado por um [tutorial em pdf](Decodificador%20digital%20de%20tons%20DTMF.pdf) que explica a teoria e detalha a implementação.
 
 ### Histórico do Projeto
 
@@ -17,12 +17,19 @@ Para utilizar este simulador, siga as instruções abaixo:
 
 ## Como Usar
 
-Caso queira apenas utilizar o simulador está disponível em [simulador](./TecladoDTMF/bin/Debug/MyDataReceiver.exe).
+### Software Simulador
+
+Caso queira apenas utilizar o simulador está disponível em [simulador](./TecladoDTMF/bin/Debug).
 
 Após a instalação, você pode começar a usar o simulador da seguinte maneira:
 1. Abra o projeto no seu ambiente de desenvolvimento.
 2. Execute o simulador para ver o decodificador DTMF em ação.
 3. Experimente com diferentes entradas para entender como o decodificador processa sinais DTMF.
+
+### Simulação com PIC
+
+A simulação como microcontroladores PIC foi implementada utilizando MikroC e o software de circuitos Proteus.
+
 
 ## Exemplos de Uso
 

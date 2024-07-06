@@ -19,7 +19,7 @@ Para utilizar este simulador, siga as instruções abaixo:
 
 ### Software Simulador
 
-Caso queira apenas utilizar o simulador está disponível em [simulador](./TecladoDTMF/bin/Debug).
+Caso queira apenas utilizar o executável do simulador está disponível em [simulador](./TecladoDTMF/bin/Debug).
 
 Após a instalação, você pode começar a usar o simulador da seguinte maneira:
 1. Abra o projeto no seu ambiente de desenvolvimento.
@@ -28,7 +28,7 @@ Após a instalação, você pode começar a usar o simulador da seguinte maneira
 
 ### Simulação com PIC
 
-A simulação como microcontroladores PIC foi implementada utilizando MikroC e o software de circuitos Proteus.
+A simulação como microcontroladores PIC foi implementada utilizando MikroC e o software de circuitos Proteus. Utilizando o ISIS é possível executar o programa e verificar o funcionamento.
 
 
 ## Exemplos de Uso
@@ -53,6 +53,8 @@ Contribuições são sempre bem-vindas! Se você tem uma ideia para melhorar o p
 4. Envie para a branch: `git push origin nova-feature`.
 5. Envie um pull request.
 
+Ou entre em contato jcf_ssp@hotmail.com.
+
 ## Licença
 
-Este projeto está sob a licença [LICENSE](LICENSE). Veja o arquivo LICENSE para mais detalhes.
+Este projeto está sob a licença [MIT](LICENSE).

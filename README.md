@@ -11,11 +11,13 @@ Originalmente desenvolvido em 2018 e revisado em 2022, este projeto foi atualiza
 ## Instalação e Configuração
 
 Para utilizar este simulador, siga as instruções abaixo:
-1. Clone o repositório: `git clone [URL do Repositório]`.
-2. Instale o ambiente .NET (se necessário).
-3. Navegue até a pasta do projeto e execute o arquivo de solução.
+1. Clone o repositório.
+2. Instale o ambiente .NET Visual Studio (se necessário).
+3. Navegue até a [pasta](./TecladoDTMF) do projeto e execute o arquivo de solução (.sln).
 
 ## Como Usar
+
+Caso queira apenas utilizar o simulador está disponível em [simulador](./TecladoDTMF/bin/Debug/MyDataReceiver.exe).
 
 Após a instalação, você pode começar a usar o simulador da seguinte maneira:
 1. Abra o projeto no seu ambiente de desenvolvimento.
@@ -26,12 +28,12 @@ Após a instalação, você pode começar a usar o simulador da seguinte maneira
 
 ### Simulação em circuito
 
-![Circuito](https://github.com/JunioCesarFerreira/Teclado-DTMF-Simulation/blob/main/print-simulation.png)
+![Circuito](./resource/print-simulation.png)
 
 
 ### Simulação em software
 
-![Print-Screen](https://github.com/JunioCesarFerreira/Teclado-DTMF-Simulation/blob/main/print-screen.png)
+![Print-Screen](./resource/print-screen.gif)
 
 
 ## Como Contribuir

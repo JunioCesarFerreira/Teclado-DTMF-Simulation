@@ -1,4 +1,4 @@
-# Teclado-DTMF-Simulation: Simulador Didático de Teclado DTMF
+# Simulador Didático de Teclado DTMF
 
 ## Descrição
 
